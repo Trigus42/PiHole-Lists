@@ -1,4 +1,3 @@
-##Save only entries of whitelist, which are actually in gravitiy list
 ad = open("gravity.list", "r", encoding="ISO-8859-1")
 wh_old = list(open("whitelist.txt", "r", encoding="ISO-8859-1"))
 
