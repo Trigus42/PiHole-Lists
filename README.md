@@ -1,2 +1,3 @@
 # whitelist
-My personally used whitelist and some scripts for managing/creating whitelists.
+Whitelist-CleanUp.py:
+Save only entries of whitelist, which are actually in gravitiy list
