@@ -5,7 +5,6 @@ android.clients.google.com
 androidauthority.com
 angryip.org
 apkpure.com
-app.adjust.com
 bit.ly
 blackhat.com
 cdn.optimizely.com
