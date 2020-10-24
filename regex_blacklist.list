@@ -14,8 +14,10 @@
 ^stat(s|istics)?[0-9]*[_.-]
 ^track(ers?|ing)?[0-9]*[_.-]
 ^traff(ic)?[.-]
-.*(xn--).*([a-zA-Z0-9\-\._]{2,256})*(?!\.de)(\.[a-z]{2,18})
 (\.|^)vkcache\.com$
 (\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$|\.gay$)
 (\.casino$|\.bet$|\.poker$)
 (\.|^)f93dad8683e2c7c\.com$
+
+#Block punnycode except for "de" TLD
+^([^\.]*\.)*(xn--)(d[^e]|[^d]e|[^de])*$
